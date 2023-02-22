@@ -2,12 +2,11 @@ const express = require("express");
 const routerUsers = express.Router();
 const { User } = require("../models");
 
-const { generateToken } = require("../config/tokens");
+const { generateToken } = require("../config/token");
 const { validarAdmin } = require("../middlewares/admin");
 
 routerUsers.post("/registro", (req, res) => {
   User.create(req.body).then((user) => {
-    console.log(user, "USER");
     res.status(201).send(user);
   });
 });
