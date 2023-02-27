@@ -2,7 +2,7 @@ const { Propiedades } = require("./models");
 
 const propiedades = [
   {
-    nombre: " Hermoso 2 Ambientes a Estrenar con Patio ",
+    nombre: " Departamento Loft ",
     descripcion:
       " Espectacular 2 ambientes  a estrenar en el Complejo Palermo. Cuenta con patio propio de 25 mts. Seguridad presencial las 24 hs",
     precio: 100000,
@@ -10,14 +10,11 @@ const propiedades = [
     disponibilidad: "Alquiler",
     barrio: "Palermo",
     ubicacion: "Capital Federal",
-    disponibilidad: "alquiler",
     categoria: "Departamento",
     pais: "Argentina",
     imagen: [
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/49/80/51/53/1200x1200/1835792218.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/49/80/51/53/1200x1200/1835792218.jpg",
-      "https://www.zonaprop.com.ar/propiedades/hermoso-2-ambientes-a-estrenar-con-patio-en-complejo-50733647.html",
-      "https://www.zonaprop.com.ar/propiedades/hermoso-2-ambientes-a-estrenar-con-patio-en-complejo-50733647.html",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/56/96/46/1200x1200/1837057665.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/56/96/46/1200x1200/1837057662.jpg",
     ],
   },
   {
@@ -32,10 +29,8 @@ const propiedades = [
     categoria: "Ph",
     pais: "Argentina",
     imagen: [
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262383.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262389.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262406.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/57/50/94/1200x1200/1837262386.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/51/05/91/77/1200x1200/1852579840.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/51/05/91/77/1200x1200/1852579834.jpg",
     ],
   },
   {
@@ -67,8 +62,8 @@ const propiedades = [
     categoria: "Departamento",
     pais: "Argentina",
     imagen: [
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/64/11/46/1200x1200/1839414147.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/64/11/46/1200x1200/1839414149.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/51/03/03/11/1200x1200/1851807986.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/51/03/03/11/1200x1200/1851807987.jpg",
     ],
   },
   {
@@ -84,35 +79,18 @@ const propiedades = [
     pais: "Argentina",
     imagen: [
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1785410694.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773728920.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773728919.jpg",
+
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773728926.jpg",
       "https://imgar.zonapropcdn.com/avisos/resize/1/00/48/18/12/82/1200x1200/1773908459.jpg",
     ],
   },
-  {
-    nombre: "Casa en Alquiler 2 Ambientes",
-    descripcion:
-      "CONDICIONES DE CONTRATACIÓN: CONTRATO A 3 AÑOS, AJUSTE POR INDICE BANCO CENTRAL, 1 MES DE DEPOSITO, 1 MES ADELANTADO, GARANTIA PROPIETARIA O SEGURO DE CAUCIÓN FINAER.",
-    precio: 75000,
-    estado: "Disponible",
-    disponibilidad: "Alquiler",
-    barrio: "Villa Lugano",
-    ubicacion: "Capital Federal",
-    categoria: "Casa",
-    pais: "Argentina",
-    imagen: [
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/52/10/68/1200x1200/1835552924.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/52/10/68/1200x1200/1835552925.jpg",
-      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/52/10/68/1200x1200/1835552923.jpg",
-    ],
-  },
+
   {
     nombre: "Casa reciclada hace 3 años ",
     descripcion: "Todos los servicios. Antigüedad 3 años.",
     precio: 70000,
     estado: "Disponible",
-    disponibilidad: "Alquiler",
+    disponibilidad: "Venta",
     barrio: "La Boca ",
     ubicacion: "Capital Federal",
     categoria: "Casa",
@@ -134,9 +112,8 @@ const propiedades = [
     categoria: "Casa",
     pais: "Argentina",
     imagen: [
-      "https://static1.sosiva451.com/08239021/28a1728a-480d-4c16-b427-4fd73b0d490a_u_large.jpg",
-      "https://static1.sosiva451.com/08239021/53d6cf44-c6e3-48e8-adc2-30ebcc2dcbf5_u_large.jpg",
-      "https://static1.sosiva451.com/08239021/af3a6436-bb34-457d-bf9e-058b9adcde6a_u_large.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/45/91/58/1200x1200/1834345544.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/45/91/58/1200x1200/1833837819.jpg",
     ],
   },
   {
@@ -184,9 +161,8 @@ const propiedades = [
     categoria: "Casa",
     pais: "Argentina",
     imagen: [
-      "https://static1.sosiva451.com/55384911/f830ba10-5d16-4e79-b632-a8339152764a_u_large.jpg",
-      "https://static1.sosiva451.com/55384911/03ee4c6f-a50c-4579-98b6-13353ea1babc_u_large.jpg",
-      "https://static1.sosiva451.com/55384911/9469d8d0-f0bb-4c10-a0b3-63570d8951c3_u_large.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/51/08/60/14/1200x1200/1853385470.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/51/08/60/14/1200x1200/1853385460.jpg",
     ],
   },
   {
@@ -251,19 +227,19 @@ const propiedades = [
     ],
   },
   {
-    nombre: "Local en Alquiler en Puerto Madero",
-    descripcion: "Local Comercial Apto Gastro 11mts frente 435m tot",
+    nombre: "Local Comercial - Vidriera a La Calle - Belgrano",
+    descripcion:
+      "Local de muy buena distribución en planta ubicado en excelente zona comercial y gastronómica, a tan solo una cuadra y media de Av. Del Libertador. Area de alto transito peatonal y vehicular tanto de dia como de noche, con proximidad a medios de transporte publico y vias de acceso rápidas a diferentes partes de la ciudad.",
     precio: 18000,
     estado: "Disponible",
     disponibilidad: "Alquiler",
-    barrio: "Puerto Madero",
+    barrio: "Belgrano",
     ubicacion: "Capital Federal",
     categoria: "Local",
     pais: "Argentina",
     imagen: [
-      "https://static1.sosiva451.com/19760021/59537c9f-0750-49c6-ae94-9ee0324e90ef_u_large.jpg",
-      "https://static1.sosiva451.com/19760021/edbb8486-a190-4029-8983-61b56eea5266_u_large.jpg",
-      "https://static1.sosiva451.com/19760021/3a0ea101-f53a-4d7e-b95d-8dfcfac0d324_u_large.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/49/69/38/38/1200x1200/1809120979.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/49/69/38/38/1200x1200/1809120981.jpg",
     ],
   },
   {
@@ -277,9 +253,8 @@ const propiedades = [
     categoria: "Local",
     pais: "Argentina",
     imagen: [
-      "https://static1.sosiva451.com/42728511/adeb4ea0-f529-4463-9b22-cd0bc49238a9_u_large.jpg",
-      "https://static1.sosiva451.com/42728511/cead397f-5346-400f-b6cc-773394b06d9d_u_large.jpg",
-      "https://static1.sosiva451.com/42728511/d5f522a7-99f3-4285-8dcf-c6f0e4a0a344_u_large.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/16/81/25/1200x1200/1832574239.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/16/81/25/1200x1200/1825530036.jpg",
     ],
   },
   {
@@ -310,9 +285,8 @@ const propiedades = [
     categoria: "PH",
     pais: "Argentina",
     imagen: [
-      "https://static1.sosiva451.com/79560121/def749b3-a7bd-4a50-a619-70f50220f145_u_large.jpg",
-      "https://static1.sosiva451.com/79560121/76f29b21-99aa-4fa4-8630-e2af25f5a537_u_large.jpg",
-      "https://static1.sosiva451.com/79560121/b13860c1-545b-4826-810c-76cb45f28aed_u_large.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/66/51/63/1200x1200/1840649837.jpg",
+      "https://imgar.zonapropcdn.com/avisos/resize/1/00/50/66/51/63/1200x1200/1840275233.jpg",
     ],
   },
 ];
