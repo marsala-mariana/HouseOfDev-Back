@@ -17,7 +17,7 @@ routerCitas.get("/", (req, res) => {
   Citas.findAll().then((prop) => res.send(prop));
 });
 
-routerCitas.post("/agrega/:id", (req, res) => {
+routerCitas.post("/agregarcita/:id", (req, res) => {
   Citas.create(req.body)
     .then((resultad) => res.send(resultad))
     .catch((error) => console.log(error, "ERRROR"));

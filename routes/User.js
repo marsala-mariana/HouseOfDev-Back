@@ -1,8 +1,8 @@
 const express = require("express");
 const routerUsers = express.Router();
 const { User } = require("../models");
-
-const { generateToken } = require("../config/token");
+const { validarAuth } = require("../middlewares/auth");
+const { generateToken, validateToken } = require("../config/token");
 const { validarAdmin } = require("../middlewares/admin");
 
 routerUsers.post("/registro", (req, res) => {
